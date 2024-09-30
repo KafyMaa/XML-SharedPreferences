@@ -9,6 +9,7 @@ class Preferences (application: Application) {
     init {
         Companion.application = application
     }
+    // this commit is for initial commit
     companion object{
         lateinit var application: Application
 
